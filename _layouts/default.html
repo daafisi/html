@@ -8,18 +8,20 @@
 </head>
 
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="column"></div>
-      <div class="column column-70">{% include navigation.html %}</div>
-      <div class="column"></div>
-    </div>
-    <div class="row">
-      <div class="column"></div>
-      <div class="column column-70">{{ content }}</div>
-      <div class="column"></div>
-    </div>
-  </div>
+  <main class="wrapper">
+
+    <section class="container" id="naviga">
+      {% include navigation.html %}
+    </section>
+
+    <section class="container" id="cont">
+      {{ content }}
+
+    </section>
+
+
+
+  </main>
 </body>
 
 </html>
