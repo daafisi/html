@@ -2,7 +2,7 @@
   {% for item in site.data.navigation %}
   <a href="{{ item.link }}">
     <button {% if page.url == item.link %}class="button button-outline"
-      {% endif %}>{{ item.name }}</button>
+      {% endif %}>{{ item.name }} / {{ page.url }} / {{ item.link }}</button>
   </a>
   {% endfor %}
 </nav>
