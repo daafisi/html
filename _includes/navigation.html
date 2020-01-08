@@ -1,7 +1,7 @@
 <nav class="navigation">
   {% for item in site.data.navigation %}
   <a href="{{ item.link }}">
-    <button {% if page.url | prepend '\HTML' == item.link %}class="button button online"
+    <button {% if page.url | prepend '\HTML' == item.link %}class="button button outline"
       {% endif %}>{{ item.name }}</button>
   </a>
   {% endfor %}
