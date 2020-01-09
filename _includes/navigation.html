@@ -1,8 +1,10 @@
 <nav class="navigation">
   {% for item in site.data.navigation %}
   <a href="{{ item.link }}">
-    <button {% if page.url == item.url %}class="button button-outline"
-      {% endif %}>{{ item.name }} = {{ page.url }} = {{ item.link }}</button>
+    <button class="{% if item.url == page.url %}button button-outline{% endif %}">
+            
+            {{ item.name }} = {{ page.url }} = {{ item.link }}
+    </button>
   </a>
   {% endfor %}
 </nav>
