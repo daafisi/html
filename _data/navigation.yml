@@ -1,7 +1,7 @@
 - name: Index
-  link: /html/index.html
+  link: 
 - name: Home
-  link: /html/home.html
+  link: home
 - name: Windows
-  link: /html/windows.html
+  link: windows
   
