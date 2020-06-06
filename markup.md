@@ -49,3 +49,14 @@ title: Markup
 ```
 *italics* bla bla **bold**
 ```
+
+---
+```
+---
+oder
+***
+oder
+___
+oder 
+------------------
+```
