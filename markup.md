@@ -45,9 +45,9 @@ title: Markup
     2. Sub Bullet 2
 3. Bullet 3
 
-*italics* bla bla **bold** bla `code`
+*italics* bla bla **bold** bla `code` bla ***bolditalics***
 ```
-*italics* bla bla **bold** bla `code`
+*italics* bla bla **bold** bla `code` bla ***bolditalics***
 ```
 
 ---
@@ -59,4 +59,9 @@ oder
 ___
 oder 
 ------------------
+```
+
+> Blockquotes
+```
+> Blockquotes
 ```
